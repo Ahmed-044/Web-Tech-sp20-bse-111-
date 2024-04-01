@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+*{
+
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+
+}
+a{
+text-align: center;}
+
+ul{
+    list-style: none;
+}
+.active{
+    color:black;
+    font-weight: bold;
+    text-align: center;
+}
+
+.navbar{
+position: absolute;
+top: 0;
+left: o;
+display: flex;
+width: 100%;
+justify-content: space-between;
+padding: 20px;
+color: black;
+
+
+
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+
+}
+.nav-links li{
+    margin: 0 30px;
+}
+
+.navb{
+    position: absolute;
+    top: 0;
+    left: o;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: black;
+    
+    
+    
+    }
+    
+    .nv-link {
+        display: flex;
+        align-items: center;
+    
+    }
+    .nv-link {
+        margin: 0 -400px;
+    }
+
+header{
+width: 100vw;
+height: 100vh;
+background-position: bottom;
+background-size: cover;
+display: flex;
+align-items: flex-end;
+justify-content: center;
+}
+.header{
+    margin-bottom: 150px;
+    color: black;
+    text-align: center;
+
+}
+.header-content h2 {
+    font-size: 4vmin;
+
+}
+
+.header-content h1{
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.ctn{
+padding:8px 20px;
+background-color: black;
+border-radius: 30px;
+color:azure
+
+}
+.menu-btn{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    cursor:pointer; 
+    display: none;
+
+
+}
+section{
+    width: 80%;
+    margin: 80px auto;
+}
+.title{
+text-align: center;
+font-size: 4nmin;
+color: black;
+font-weight: bold;
+
+
+}
+.row{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.row .col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.event .row{
+    margin-top: 50 px;
+
+
+}
+h4{
+    font-size: 3vmin;
+    color: black;
+    margin: 20px auto;
+    font-weight: bold;
+
+}
+p{
+    color: black;
+    padding: 0px 40px;
+}
+.event .ctn{
+    margin-top: 30px ;
+
+}
